@@ -1,0 +1,81 @@
+importFactors.m
+{Warning: Function C:\Users\Sean Kila\Documents\MATLAB\display.m has the same name as
+a MATLAB builtin. We suggest you rename the function to avoid a potential name
+conflict.} 
+{Warning: Direct access of structure fields returned by a function call (e.g.,
+ call to importFactors) is not allowed. See <a href="matlab: helpview([docroot '/techdoc/rn/rn.map'],'cannot_dot_index_function_outputs')">MATLAB 7.10 Release Notes, "Subscripting Into Function Return Values"</a> for details.} 
+{??? Attempt to reference field of non-structure array.
+} 
+Returns
+
+Returns =
+
+    0.1188    0.1178    0.1115    0.1283    0.1079
+
+Variance
+
+Variance =
+
+    0.0349    0.0374    0.0389    0.0397    0.1079
+
+StdDev
+
+StdDev =
+
+    0.1869    0.1935    0.1973    0.1993    0.2272
+
+Covariance
+
+Covariance =
+
+    0.0349    0.0316    0.0299    0.0290    0.0373
+    0.0316    0.0374    0.0309    0.0289    0.0392
+    0.0299    0.0309    0.0389    0.0279    0.0356
+    0.0290    0.0289    0.0279    0.0397    0.0335
+    0.0373    0.0392    0.0356    0.0335    0.0516
+
+Correlation
+
+Correlation =
+
+    1.0000    0.8749    0.8103    0.7784    0.8777
+    0.8749    1.0000    0.8086    0.7491    0.8927
+    0.8103    0.8086    1.0000    0.7099    0.7949
+    0.7784    0.7491    0.7099    1.0000    0.7405
+    0.8777    0.8927    0.7949    0.7405    1.0000
+
+uiopen('C:\Users\Sean Kila\Documents\MATLAB\Code\PortfolioOpportunitySet.m',1)
+PortfolioOpportunitySet.m
+{Warning: Direct access of structure fields returned by a function call (e.g.,
+ call to PortfolioOpportunitySet) is not allowed. See <a href="matlab: helpview([docroot '/techdoc/rn/rn.map'],'cannot_dot_index_function_outputs')">MATLAB 7.10 Release Notes, "Subscripting Into Function Return Values"</a> for details.} 
+{??? Attempt to reference field of non-structure array.
+} 
+Main.m
+Please input your age: 55
+Please input your annual income (in thousands): 80
+The weights of the risky portfolio are:
+	Cnsmr = 34.239%
+	Manuf = 14.651%
+	HiTec = 2.645%
+	Hlth = 48.465%
+	Other = 0.000%
+The risky portfolio has annual expected return of 12.306% and standard deviation of 18.070%
+Based on your risk aversion, you should invest 69.248% in the risky portfolio and 30.752% in the risk-free asset
+The weights of the overall portfolio are:
+	Cnsmr = 23.710%
+	Manuf = 10.146%
+	HiTec = 1.832%
+	Hlth = 33.561%
+	Other = 0.000%
+	Risk-free asset = 30.752%
+The complete portfolio has annual expected return of 8.829% and standard deviation of 12.513%
+
+{Warning: Ignoring non-positive data in pie chart.} 
+> In <a href="matlab: opentoline('C:\Program Files\MATLAB\R2010a\toolbox\matlab\specgraph\pie.m',41,1)">pie at 41</a>
+  In <a href="matlab: opentoline('C:\Users\Sean Kila\Documents\MATLAB\Code\optimPort.m',36,1)">optimPort at 36</a>
+  In <a href="matlab: opentoline('C:\Users\Sean Kila\Documents\MATLAB\Code\Main.m',9,1)">Main at 9</a>
+{Warning: Direct access of structure fields returned by a function call (e.g.,
+ call to Main) is not allowed. See <a href="matlab: helpview([docroot '/techdoc/rn/rn.map'],'cannot_dot_index_function_outputs')">MATLAB 7.10 Release Notes, "Subscripting Into Function Return Values"</a> for details.} 
+{??? Attempt to reference field of non-structure array.
+} 
+diary off
